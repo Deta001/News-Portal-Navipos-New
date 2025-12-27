@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>News Portal</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header >
+      <div class="top-date" id="current-date"></div>
+
+        <div class="container header-inner">
+             <div class="logo">
+                <svg width="180" height="48" viewBox="0 0 180 48" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Icon -->
+  <circle cx="24" cy="24" r="20" fill="#2dd4bf"/>
+  <path d="M24 10L30 26H18L24 10Z" fill="#0b2f3a"/>
+  <circle cx="24" cy="28" r="3" fill="#0b2f3a"/>
+
+  <!-- Text -->
+  <text x="54" y="30"
+        font-family="Poppins, sans-serif"
+        font-size="22"
+        font-weight="700"
+        fill="#2dd4bf">
+    navipos
+  </text>
+  <text x="134" y="30"
+        font-family="Poppins, sans-serif"
+        font-size="14"
+        font-weight="600"
+        fill="#e5f6f8">
+    .com
+  </text>
+</svg>
+</div>
+            
+   <div class="navigation-search" id="navbar">
+ <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#lifestyle" class="active">Lifestyle</a></li>
+                <li><a href="tech.html" class="active">Tech & Digital</a></li>
+                <li><a href="#budaya" class="active">Budaya & Pop</a></li>
+                <li><a href="#education" class="active">Education & Career</a></li>
+                <li><a href="#ruangragam" class="active">Ruang Ragam</a></li>
+                <li><a href="#ootd" class="active">OOTD</a></li>
+                <li><a href="#ceritadarisekitar" class="active">Cerita dari Sekitar</a></li>
+                <li><a href="komunitas.html" class="active">Komunitas</a></li>
+                <li><a href="#tokonavipos" class="active">Toko Navipos</a></li>
+              </ul>
+        </nav>
+        </div>
+          
+        <div class="search-box">
+  <input type="search" placeholder="Search..." /><span class="search-icon">🔍</span>
+</div>
+        </div>
+    </header>
+    
+    <main>
+    
+        
+<section class="hero-section">
+  <div class="hero-slider">
+  <div class="slides">
+    <!-- Slide 1 -->
+    <div class="slide">
+      <img src="images/newest-1.jpg" alt="Analisis Protein, Kunci Memilih Makanan Bergizi">
+      <div class="caption">
+        <span class="category">Lifestyle • Health</span>
+        <h2>Analisis Protein, Kunci Memilih Makanan Bergizi</h2>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide">
+      <img src="images/newest-2.jpg" alt="Terminal Terpadu Pulo Gebang">
+      <div class="caption">
+        <span class="category">News • Nasional</span>
+        <h2>Terminal Terpadu Pulo Gebang, Terminal Terbesar se-ASEAN</h2>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide">
+      <img src="images/newest-3.jpg" alt="Praktik Baik SPMB Menteri">
+      <div class="caption">
+        <span class="category">Pendidikan</span>
+        <h2>Praktik Baik SPMB, Kemendikbud Terjunkan Tim Hingga Masyarakat</h2>
+      </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide">
+      <img src="images/newest-4.jpg" alt="CEO OpenAI Sam Altman">
+      <div class="caption">
+        <span class="category">Teknologi</span>
+        <h2>CEO OpenAI Sebut Meta Coba Bajak Karyawannya, Ditawari Gaji...</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <button class="nav prev">&#10094;</button>
+  <button class="nav next">&#10095;</button>
+  <div class="dots" id="sliderDots"></div>
+</div>
+
+
+  <!-- RIGHT: MOST POPULAR -->
+  <aside class="most-popular">
+    <h3>Most Popular</h3>
+
+    <div class="popular-item">
+      <img src="https://via.placeholder.com/100x60" alt="">
+      <div class="content">
+        <p>28 Sekolah Kedinasan Tanpa Syarat Nilai UTBK 2025 ...</p>
+        <span class="category">Pendidikan</span>
+      </div>
+    </div>
+
+    <div class="popular-item">
+      <img src="https://via.placeholder.com/100x60" alt="">
+      <div class="content">
+        <p>Indonesia Jadi Contoh Penanganan Malaria Terbaik di Asia Pasifik ...</p>
+        <span class="category">Nasional</span>
+      </div>
+    </div>
+
+    <div class="popular-item">
+      <img src="https://via.placeholder.com/100x60" alt="">
+      <div class="content">
+        <p>Tito Suporter Timnas Indonesia Paduan Kreativitas ...</p>
+        <span class="category">Olahraga</span>
+      </div>
+    </div>
+
+    <div class="popular-item">
+      <img src="https://via.placeholder.com/100x60" alt="">
+      <div class="content">
+        <p>Anugerah Musik Indonesia 2025 Apresiasi bagi Kreativitas ...</p>
+        <span class="category">Hiburan</span>
+      </div>
+    </div>
+  </aside>
+</section>
+
+
+<section class="newest-section">
+  <h2>Newest Articles</h2>
+
+<div class="article-slider">
+    <div class="article-card">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <h3>Analisis Protein, Kunci Memilih Makanan Bergizi</h3>
+      <span class="tag">Lifestyle</span>
+    </div>
+    
+     <div class="article-card">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <h3>Terminal Terpadu Pulo Gebang, Terbesar di Asia Tenggara</h3>
+      <span class="tag">News</span>
+    </div>
+
+        <div class="article-card">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <h3>Cara Membuat Perasaanmu Lebih Lega Setelah Di-Ghosting</h3>
+      <span class="tag">Love & Relationship</span>
+    </div>
+
+    <div class="article-card">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <h3>CEO AI Sebut Meta Coba Bajak Karyawannya</h3>
+      <span class="tag">Tech</span>
+    </div>
+
+    <div class="article-card">
+      <img src="https://via.placeholder.com/300x200" alt="">
+      <h3>Analisis Protein, Kunci Memilih Makanan Bergizi</h3>
+      <span class="tag">Lifestyle</span>
+    </div>
+  </div>
+</section>
+
+<section class="education-career">
+  <h2>Education & Career</h2>
+
+  <div class="edu-grid">
+    <div class="big-promo">
+      <img src="https://via.placeholder.com/500x300" alt="Event Poster">
+      <h3>Jobstreet Buka Ribuan Lowongan di Mega Career Expo 2025</h3>
+    </div>
+
+    <div class="edu-list">
+      <div class="edu-item"> <img src="https://via.placeholder.com/500x300" alt="Event Poster">Kalau Nggak Masuk UKM, Nanti Nyesel Gak Sih?</div>
+      <div class="edu-item">  <img src="https://via.placeholder.com/500x300" alt="Event Poster">Gaji 1 Juta Per Bulan dari Stiker Digital? Bisa!</div>
+      <div class="edu-item"> <img src="https://via.placeholder.com/500x300" alt="Event Poster">Pelatihan Intensif Teknologi Untuk 2000 Mahasiswa</div>
+      <div class="edu-item"> <img src="https://via.placeholder.com/500x300" alt="Event Poster">Cara Lolos Beasiswa Dalam 3 Bulan</div>
+    </div>
+  </div>
+  <button class="load-more-btn">Load More</button>
+</section>
+
+       
+    </main>
+    <footer>
+        <p>&copy; 2023 Web Navipos New. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+<script>
+  // Format tanggal ke bahasa Indonesia
+  const options = { 
+    weekday: 'long', 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
+  };
+
+  const today = new Date();
+  const formattedDate = today.toLocaleDateString('id-ID', options);
+
+  document.getElementById('current-date').textContent = formattedDate;
+
+// SLIDER HERO SECTION
+let current = 0;
+const slides = document.querySelectorAll(".slide");
+
+function showSlide(index) {
+  slides.forEach((slide, i) => {
+    slide.classList.toggle("active", i === index);
+  });
+}
+
+document.querySelector(".next").addEventListener("click", () => {
+  current = (current + 1) % slides.length;
+  showSlide(current);
+});
+
+document.querySelector(".prev").addEventListener("click", () => {
+  current = (current - 1 + slides.length) % slides.length;
+  showSlide(current);
+});
+
+// AUTO PLAY setiap 5 detik
+setInterval(() => {
+  current = (current + 1) % slides.length;
+  showSlide(current);
+}, 5000);
+
+
+
+</script>
+
+</html>
